@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-export const metadata: Metadata = {
-  title: "Vikram | Full Stack Developer",
+export const metadata = {
+  title: "Vikramarka Mahendra | Full Stack Developer",
   description:
-    "Portfolio showcasing my projects, skills, education and development journey.",
+    "Portfolio of Vikramarka Mahendra, a Software Engineering student learning Java, Spring Boot, backend development, and full-stack technologies.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
