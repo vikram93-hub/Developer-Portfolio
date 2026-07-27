@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vikramarka Mahendra - Developer Portfolio
 
-## Getting Started
+A modern personal portfolio website created with AI-assisted development while exploring modern frontend architecture and project organization.
 
-First, run the development server:
+## 🌐 Live Website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit my portfolio:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://developer-portfolio-taupe-two.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About This Project
 
-## Learn More
+This portfolio was built with the help of AI coding assistance while learning how modern frontend projects are structured.
 
-To learn more about Next.js, take a look at the following resources:
+Through this project, I explored:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Component-based architecture
+- Reusable UI components
+- Folder organization
+- Responsive design concepts
+- Modern frontend development workflows
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The goal of this project was to understand how professional frontend applications are structured before learning React in depth.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+---
+
+## Features
+
+- Responsive portfolio design
+- Hero introduction section
+- Skills showcase
+- Project showcase
+- Education and learning timeline
+- Contact form integration
+- Smooth animations
+- Reusable components
+- Resume download functionality
+
+---
+
+## Project Structure
+src/
+│
+├── app/
+│ ├── layout.tsx
+│ ├── page.tsx
+│ ├── globals.css
+│ └── not-found.tsx
+│
+├── components/
+│ ├── sections/
+│ ├── ui/
+│ └── motion/
+│
+└── lib/
+├── portfolio.ts
+├── projects.ts
+└── experience.ts
+
+## Run Locally
+
+To run this project on your local machine:
+
+### 1. Clone the repository
+
+git clone https://github.com/vikram93-hub/Developer-Portfolio.git
+
+### 2. Navigate to the project folder
+   cd Developer-Portfolio
+### 3. Install dependencies
+   npm install
+### 4. Start the development server
+   npm run dev
+### 5. Open in browser
+   http://localhost:3000
