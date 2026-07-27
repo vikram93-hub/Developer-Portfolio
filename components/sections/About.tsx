@@ -15,36 +15,44 @@ export default function About() {
             About Me
           </h2>
 
+
           <div className="grid lg:grid-cols-2 gap-16 items-center">
+
 
             <div>
 
               <p className="text-slate-300 text-lg leading-9">
 
-                I'm <span className="text-cyan-400 font-bold">
+                I'm{" "}
+                <span className="text-cyan-400 font-bold">
                   {portfolio.name}
-                </span>, an aspiring Java Full Stack Developer passionate about
-                building scalable applications using Spring Boot, React and
-                MySQL.
+                </span>
+                , an Integrated M.Tech Software Engineering student and
+                aspiring Full Stack Developer focused on Java backend
+                development using Spring Boot.
 
               </p>
 
+
               <p className="mt-8 text-slate-400 leading-9">
 
-                I'm currently focused on mastering Java, Spring Boot,
-                React, MySQL and Data Structures & Algorithms while building
-                real-world projects that strengthen my development skills.
+                I'm currently building strong foundations in Java,
+                Spring Boot, REST APIs, MySQL and Data Structures &
+                Algorithms while exploring frontend development concepts
+                to become a well-rounded full-stack developer.
 
               </p>
 
             </div>
 
+
             <div className="grid grid-cols-2 gap-6">
 
+
               {[
-                ["☕", "Java", "Primary Language"],
-                ["🚀", "Spring Boot", "Backend"],
-                ["⚛️", "React", "Frontend"],
+                ["☕", "Java", "Programming"],
+                ["🚀", "Spring Boot", "Backend Development"],
+                ["🗄️", "MySQL", "Database"],
                 ["🧠", "DSA", "Problem Solving"],
               ].map(([icon, title, subtitle]) => (
 
@@ -57,9 +65,11 @@ export default function About() {
                     {icon}
                   </div>
 
+
                   <h3 className="text-2xl font-bold text-white">
                     {title}
                   </h3>
+
 
                   <p className="text-slate-400 mt-2">
                     {subtitle}
@@ -69,7 +79,9 @@ export default function About() {
 
               ))}
 
+
             </div>
+
 
           </div>
 

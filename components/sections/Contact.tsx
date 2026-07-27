@@ -12,14 +12,14 @@ export default function Contact() {
 
         <SectionHeading
           title="Contact Me"
-          subtitle="Let's connect and build something amazing together."
+          subtitle="Have a project idea or internship opportunity? Let's connect."
         />
 
 
         <div className="mt-12 grid md:grid-cols-2 gap-10">
 
 
-          {/* Left Card */}
+          {/* Contact Information */}
 
           <FadeIn>
 
@@ -31,13 +31,13 @@ export default function Contact() {
 
 
               <p className="mt-5 text-slate-400 leading-8">
-                I am open to internship opportunities, collaborations,
-                and interesting projects. Feel free to reach out.
+                I am currently exploring internship opportunities,
+                backend development projects, and collaborations.
+                Feel free to reach out.
               </p>
 
 
               <div className="mt-8 space-y-5">
-
 
                 <a
                   href={`mailto:${portfolio.email}`}
@@ -89,41 +89,49 @@ export default function Contact() {
 
 
 
-          {/* Contact Form */}
+          {/* Form */}
 
           <FadeIn delay={0.2}>
 
             <form
-  action="https://formspree.io/f/mrenroqr"
-  method="POST"
-  className="rounded-3xl border border-slate-700 bg-slate-900 p-8 space-y-5"
->
+              action="https://formspree.io/f/mrenroqr"
+              method="POST"
+              className="rounded-3xl border border-slate-700 bg-slate-900 p-8 space-y-5"
+            >
+
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                required
+                aria-label="Your Name"
+                className="w-full rounded-xl bg-slate-800 px-5 py-4 text-white outline-none focus:ring-2 focus:ring-cyan-400"
+              />
 
 
-             <input
-  type="text"
-  name="name"
-  placeholder="Your Name"
-  className="w-full rounded-xl bg-slate-800 px-5 py-4 text-white outline-none focus:ring-2 focus:ring-cyan-400"
-/>
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+                aria-label="Your Email"
+                className="w-full rounded-xl bg-slate-800 px-5 py-4 text-white outline-none focus:ring-2 focus:ring-cyan-400"
+              />
 
-             <input
-  type="email"
-  name="email"
-  placeholder="Your Email"
-  className="w-full rounded-xl bg-slate-800 px-5 py-4 text-white outline-none focus:ring-2 focus:ring-cyan-400"
-/>
-<textarea
-  name="message"
-  placeholder="Your Message"
-  rows={5}
-  className="w-full rounded-xl bg-slate-800 px-5 py-4 text-white outline-none focus:ring-2 focus:ring-cyan-400"
-/>
+
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                rows={5}
+                required
+                aria-label="Your Message"
+                className="w-full rounded-xl bg-slate-800 px-5 py-4 text-white outline-none focus:ring-2 focus:ring-cyan-400"
+              />
 
 
               <button
                 type="submit"
-                className="w-full rounded-xl bg-cyan-500 py-4 font-semibold text-slate-950 transition hover:bg-cyan-400 active:scale-95 focus:outline-none focus:ring-0"
+                className="w-full rounded-xl bg-cyan-500 py-4 font-semibold text-slate-950 transition hover:bg-cyan-400 active:scale-95"
               >
                 Send Message
               </button>
@@ -135,7 +143,6 @@ export default function Contact() {
 
 
         </div>
-
 
       </div>
 

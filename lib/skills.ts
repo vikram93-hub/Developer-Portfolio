@@ -1,14 +1,17 @@
 export const skills = [
   "Java",
   "Spring Boot",
-  "React",
+  "REST APIs",
   "MySQL",
-  "JavaScript",
-  "TypeScript",
-  "Tailwind CSS",
+  "SQL",
+  "Data Structures & Algorithms",
+  "Object-Oriented Programming",
   "Git",
   "GitHub",
-  "REST APIs",
-  "DSA",
-  "OOP"
+  "Spring MVC",
+  "Hibernate / JPA",
+  "JavaScript (Basics)",
+  "React (Learning)",
+  "TypeScript (Explored)",
+  "Tailwind CSS (Explored)"
 ];

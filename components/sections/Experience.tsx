@@ -10,20 +10,19 @@ export default function Experience() {
       <div className="max-w-6xl mx-auto px-6">
 
         <SectionHeading
-          title="Education & Learning"
-          subtitle="My academic journey and continuous growth in full-stack development."
+          title="Education & Learning Journey"
+          subtitle="My academic background and the technologies I am continuously learning."
         />
-
 
         <div className="mt-12 space-y-8">
 
           {experience.map((item, index) => (
 
-            <FadeIn key={item.company} delay={index * 0.15}>
+            <FadeIn key={item.institution} delay={index * 0.15}>
 
               <ExperienceCard
-                company={item.company}
-                role={item.role}
+                company={item.institution}
+                role={item.degree}
                 duration={item.duration}
                 description={item.description}
               />
@@ -33,7 +32,6 @@ export default function Experience() {
           ))}
 
         </div>
-
 
       </div>
 

@@ -7,6 +7,7 @@ import Contact from "@/components/sections/Contact";
 import Navbar from "@/components/ui/Navbar";
 import Footer from "@/components/sections/Footer";
 import PageLoader from "@/components/ui/PageLoader";
+import Learning from "@/components/sections/Learning";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
        <Navbar />
 
       <Skills />
+
+      <Learning />
 
       <Projects />
 

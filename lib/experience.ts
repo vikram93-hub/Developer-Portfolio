@@ -1,16 +1,25 @@
 export const experience = [
   {
-    company: "VIT-AP University",
-    role: "Integrated M.Tech Software Engineering",
+    institution: "VIT-AP University",
+    degree: "Integrated M.Tech - Software Engineering",
     duration: "2025 - Present",
     description:
-      "Building strong foundations in Java, Data Structures, Spring Boot, SQL, and full-stack development."
+      "Currently pursuing Software Engineering with focus on Java, Spring Boot, Database Management, Data Structures and building software development skills.",
   },
+
   {
-    company: "Self Learning",
-    role: "Full Stack Developer Journey",
-    duration: "2025 - Present",
+    institution: "Backend Development Learning",
+    degree: "Java & Spring Boot Development",
+    duration: "2026 - Present",
     description:
-      "Learning backend development with Spring Boot, frontend development with React and Next.js, and solving DSA problems regularly."
-  }
+      "Learning backend development concepts including Spring Boot, REST APIs, dependency injection, MySQL integration, and application architecture.",
+  },
+
+  {
+    institution: "Data Structures & Algorithms",
+    degree: "Problem Solving Practice",
+    duration: "2026 - Present",
+    description:
+      "Practicing DSA concepts using Java and improving problem-solving skills through coding platforms.",
+  },
 ];

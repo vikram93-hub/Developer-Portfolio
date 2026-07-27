@@ -35,6 +35,7 @@ export default function ProjectCard({
 
       </div>
 
+
       {/* Content */}
 
       <div className="p-8">
@@ -43,9 +44,11 @@ export default function ProjectCard({
           {title}
         </h3>
 
+
         <p className="mt-5 text-slate-400 leading-8">
           {description}
         </p>
+
 
         {/* Tech */}
 
@@ -62,6 +65,7 @@ export default function ProjectCard({
 
         </div>
 
+
         {/* Buttons */}
 
         <div className="mt-8 flex gap-4">
@@ -69,20 +73,25 @@ export default function ProjectCard({
           <a
             href={github}
             target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 rounded-xl border border-slate-700 px-5 py-3 text-white transition hover:bg-slate-800"
           >
             <FaGithub />
             GitHub
           </a>
 
-          <a
-            href={live}
-            target="_blank"
-            className="flex items-center gap-2 rounded-xl bg-cyan-500 px-5 py-3 font-semibold text-slate-900 transition hover:bg-cyan-400"
-          >
-            <FaExternalLinkAlt />
-            Live Demo
-          </a>
+
+          {live && (
+            <a
+              href={live}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-xl bg-cyan-500 px-5 py-3 font-semibold text-slate-900 transition hover:bg-cyan-400"
+            >
+              <FaExternalLinkAlt />
+              Live Demo
+            </a>
+          )}
 
         </div>
 

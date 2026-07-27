@@ -1,40 +1,69 @@
 export const projects = [
   {
-    title: "Developer Portfolio",
+    title: "Spring Boot REST API Application",
 
     description:
-      "A modern responsive portfolio website built using Next.js, React, and Tailwind CSS featuring smooth animations and a clean user interface.",
-
-    tech: [
-      "Next.js",
-      "React",
-      "Tailwind CSS",
-    ],
-
-    github: "https://github.com/YOUR_USERNAME",
-
-    live: "#",
-
-    image: "/images/project1.jpg",
-  },
-
-  {
-    title: "Spring Boot REST API",
-
-    description:
-      "A RESTful backend application built with Spring Boot and MySQL supporting CRUD operations and clean layered architecture.",
+      "Backend application built while learning Spring Boot. Implemented REST APIs using GET, POST, PUT, and DELETE operations while exploring dependency injection, IoC, and layered architecture.",
 
     tech: [
       "Java",
       "Spring Boot",
-      "MySQL",
       "REST API",
+      "MySQL"
     ],
 
-    github: "https://github.com/YOUR_USERNAME",
+    github:
+      "https://github.com/vikram93-hub",
 
-    live: "#",
+    live: "",
 
-    image: "/images/project2.jpg",
+    image:
+      "/projects/springboot.png",
+  },
+
+
+  {
+    title: "Developer Portfolio Website",
+
+    description:
+      "Personal portfolio website created to showcase my skills, projects, and learning journey. Explored modern frontend architecture, reusable components, and responsive UI design.",
+
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+
+    github:
+      "https://github.com/vikram93-hub/Developer-Portfolio",
+
+    live:
+      "https://developer-portfolio-taupe-two.vercel.app",
+
+    image:
+      "/projects/portfolio.png",
+  },
+
+
+  {
+    title: "Java Learning Projects",
+
+    description:
+      "Collection of Java programs created while strengthening programming fundamentals, object-oriented programming concepts, and problem-solving skills.",
+
+    tech: [
+      "Java",
+      "OOP",
+      "Data Structures"
+    ],
+
+    github:
+      "https://github.com/vikram93-hub",
+
+    live: "",
+
+    image:
+      "/projects/java.png",
   },
 ];
