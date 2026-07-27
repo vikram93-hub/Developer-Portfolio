@@ -8,7 +8,7 @@ export const portfolio = {
 
      email: "vikramarka9346@gmail.com",
 
-  resume: "/resume/Vikramarka_Mahendra_Resume.pdf",
+  resume: "/Vikram_Resume.pdf",
 
   profileImage: "/images/profile.jpg",
 
