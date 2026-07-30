@@ -14,7 +14,7 @@ export const portfolio = {
 
   social: {
     github: "https://github.com/vikram93-hub",
-    linkedin: "https://www.linkedin.com/in/ vikramarka-mahendra-rotta-1536b4387",
+    linkedin: "https://linkedin.com/in/vikramarka-mahendra-rotta-1536b4387",
     leetcode: "https://leetcode.com/u/vikram9346",
   },
 };
