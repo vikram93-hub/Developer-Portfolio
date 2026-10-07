@@ -1,5 +1,34 @@
 export const projects = [
   {
+    title: "Expense Tracker",
+
+    description:
+      "A backend application for managing personal expenses and income with secure user authentication, personal categories, transaction tracking, and monthly financial summaries.",
+
+    tech: [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "JWT",
+      "BCrypt",
+      "Spring Data JPA",
+      "Hibernate",
+      "MySQL",
+      "Maven",
+      "Postman"
+    ],
+
+    github:
+      "https://github.com/vikram93-hub/expense-tracker",
+
+    live: "",
+
+    image:
+      "/projects/expense-tracker.png",
+  },
+
+
+  {
     title: "Spring Boot REST API Application",
 
     description:
